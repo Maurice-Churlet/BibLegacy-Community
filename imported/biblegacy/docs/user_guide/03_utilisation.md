@@ -2,18 +2,29 @@
 
 ## Usage standard
 Pour un operateur occasionnel, le parcours normal est simple:
-1. Renseignez le **Dossier Entree** avec les photos a traiter.
-2. Renseignez le **Dossier Sortie** pour recevoir les photos renommees.
-3. Verifiez le **Prefixe** de l'evenement.
-4. Choisissez un **profil** de travail.
-5. Activez, si besoin, les options **Fallback** ou **TrOCR**.
-6. Lancez **Production** depuis l'onglet Production.
+1. Selectionnez le **Dossier Projet**.
+2. Laissez l'application renseigner automatiquement le **Dossier Entree** et le **Dossier Sortie**.
+3. Deposez vos propres fichiers dans `Test_OCR`, `Calibrage` ou `Base photos` selon la fonction voulue.
+4. Verifiez le **Prefixe** de l'evenement.
+5. Choisissez un **profil** de travail.
+6. Activez, si besoin, les options **Fallback** ou **TrOCR**.
+7. Lancez **Production** depuis l'onglet Production.
 
 ## Que renseigner avant de lancer Production
 - **Dossier Entree** : lot d'images source a analyser.
 - **Dossier Sortie** : dossier qui recevra les images renommees et les sous-dossiers generes.
 - **Dossier Projet** : racine de travail du projet, utile pour les tests, calibrages et outils de maintenance.
 - **Prefixe** : texte ajoute au debut des noms de fichiers produits.
+
+## Repertoires a peupler selon l'usage
+
+- **Comparatifs** : placez vos images dans `Test_OCR`.
+- **Calibrage manuel** : placez vos images de reference dans `Calibrage`.
+- **Preparation d'un jeu canonique** : placez un volume plus large dans `Base photos`.
+- **Production quotidienne** : le **Dossier Entree** est renseigne automatiquement a partir du projet, mais vous pouvez encore le changer si vous travaillez hors structure projet.
+- **Resultats** : utilisez de preference `Output` comme **Dossier Sortie**.
+
+Le point cle pour l'utilisateur est simple : apres selection du **Dossier Projet**, il n'a surtout plus qu'a mettre ses fichiers dans les bons dossiers.
 
 ## Choisir le bon profil
 - **Express** : profil recommande pour l'exploitation courante. C'est le plus rapide.
@@ -69,3 +80,12 @@ Il devient utile si:
 - le type de photos change fortement,
 - la distance ou l'eclairage degradent la lecture,
 - vous voulez optimiser un profil pour une serie de courses recurrentes.
+
+## Cas pratique simple
+
+1. selectionnez votre **Dossier Projet**
+2. verifiez que `Test_OCR` contient quelques images representatives
+3. ajoutez des images dans `Calibrage` si vous voulez affiner les reglages
+4. lancez un comparatif court puis long
+5. ajustez le profil si necessaire
+6. lancez la production sur le lot reel

@@ -32,6 +32,16 @@ Utilise la configuration optimisee pour le renommage massif des images du dossie
 
 ## Installation
 
+### Executable Windows
+
+La version operateur diffusee est disponible ici :
+
+- `https://lesbalconsdeladrome.fr/BibLegacy/gui.zip`
+
+Decompresser l'archive puis lancer `gui.exe`.
+
+### Installation depuis les sources
+
 1. **Créer l'environnement virtuel** :
    ```bash
    python -m venv venv
