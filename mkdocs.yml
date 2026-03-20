@@ -1,7 +1,7 @@
 site_name: BibLegacy
 site_description: Documentation publique et operateur de BibLegacy
 site_url: https://maurice-churlet.github.io/BibLegacy-Community/
-repo_name: BibLegacy-Community
+repo_name: BibLegacy
 docs_dir: site_docs
 site_dir: site
 

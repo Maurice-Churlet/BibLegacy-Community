@@ -16,11 +16,11 @@ BibLegacy est une application Windows de lecture OCR de dossards, orientee explo
 
 ## Demarrage rapide
 
-1. telechargez et decompressez l executable
-2. lancez gui.exe
-3. choisissez un Dossier Projet
-4. laissez l application renseigner automatiquement les dossiers d entree et de sortie
-5. deposez vos propres images dans Test_OCR, Calibrage ou Base photos selon le besoin
+1. telechargez et decompressez l'executable
+2. lancez `gui.exe`
+3. choisissez un **Dossier Projet**
+4. laissez l'application renseigner automatiquement les dossiers d'entree et de sortie
+5. deposez vos propres images dans `Test_OCR`, `Calibrage` ou `Base photos` selon le besoin
 
 ## Pages utiles
 

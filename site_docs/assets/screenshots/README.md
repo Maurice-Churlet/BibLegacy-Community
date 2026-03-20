@@ -2,8 +2,10 @@
 
 Placez ici les captures d ecran utilisees par le site MkDocs.
 
-Fichiers attendus :
+Exemples de noms utiles :
 
-- Aide.jpg
-- Production.jpg
-- Parametres.jpg
+- `accueil.png`
+- `production.png`
+- `comparatif.png`
+- `dossier-projet.png`
+- `sortie-web.png`

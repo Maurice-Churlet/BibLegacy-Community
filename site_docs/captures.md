@@ -19,3 +19,16 @@ Cet ecran concentre le workflow principal : selection du projet, verification de
 ![Ecran des parametres](assets/screenshots/Parametres.jpg)
 
 Cette vue permet de comprendre les options de traitement, les profils et les reglages utiles a l exploitation.
+
+## Ajouter d autres captures
+
+Les captures d ecran du site sont stockees dans :
+
+- `site_docs/assets/screenshots/`
+
+Vous pouvez enrichir cette page progressivement avec d autres vues :
+
+- initialisation du Dossier Projet
+- comparatifs sur `Test_OCR`
+- sortie web locale
+- rapports et statistiques

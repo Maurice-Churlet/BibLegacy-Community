@@ -3,9 +3,20 @@
 This folder is generated from the BibLegacy source repository.
 
 - Source repository: D:\Dev\BibLegacy
-- Source commit: 1228e0f
-- Synced at: 2026-03-20 22:05:37
+- Source commit: 749fa2e
+- Synced at: 2026-03-20 22:26:14
 - Managed root: imported/biblegacy
+- Public site root files synced: yes
+
+## Included root directories
+
+- site_docs -> site_docs
+
+## Included root files
+
+- mkdocs.yml -> mkdocs.yml
+- docs-requirements.txt -> docs-requirements.txt
+- .github/workflows/pages.yml -> .github/workflows/pages.yml
 
 ## Included directories
 

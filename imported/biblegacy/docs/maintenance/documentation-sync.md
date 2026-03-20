@@ -13,6 +13,10 @@ Le point d'entree est le script PowerShell `scripts/sync-community-docs.ps1`.
 Le contenu exporte est defini dans `docs/community-sync-manifest.json`.
 
 Configuration initiale :
+- `site_docs` vers `site_docs` a la racine du depot cible
+- `mkdocs.yml` vers `mkdocs.yml` a la racine du depot cible
+- `docs-requirements.txt` vers `docs-requirements.txt` a la racine du depot cible
+- `.github/workflows/pages.yml` vers `.github/workflows/pages.yml` a la racine du depot cible
 - `docs/user_guide` vers `imported/biblegacy/docs/user_guide`
 - `docs/tutos` vers `imported/biblegacy/docs/tutos`
 - `docs/marketing` vers `imported/biblegacy/docs/marketing`
@@ -51,6 +55,11 @@ Le script recree entierement le dossier gere `imported/biblegacy` dans le depot 
 Cette approche garantit deux choses :
 - le depot public garde ses fichiers manuels a la racine
 - la partie synchronisee reste reproductible et simple a revoir dans Git
+
+Depuis l ajout du site MkDocs public, la synchronisation peut aussi mettre a jour automatiquement les fichiers racine necessaires a GitHub Pages. Le flux `Commit + Push` de BibLegacy peut donc publier :
+
+- le contenu synchronise sous `imported/biblegacy`
+- la facade publique MkDocs (`site_docs`, `mkdocs.yml`, workflow Pages, dependances de build)
 
 ## Tache VS Code
 Une tache VS Code `Sync Community Docs` est ajoutee dans `.vscode/tasks.json` pour lancer la synchronisation sans retaper la commande.
