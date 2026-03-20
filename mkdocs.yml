@@ -1,0 +1,27 @@
+site_name: BibLegacy
+site_description: Documentation publique et operateur de BibLegacy
+site_url: https://maurice-churlet.github.io/BibLegacy-Community/
+repo_name: BibLegacy-Community
+docs_dir: site_docs
+site_dir: site
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Installation: installation.md
+  - Utilisation: utilisation.md
+  - Dossier Projet: dossier-projet.md
+  - Captures D Ecran: captures.md
