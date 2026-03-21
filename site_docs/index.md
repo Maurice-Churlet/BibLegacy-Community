@@ -26,8 +26,27 @@ BibLegacy est une application Windows de lecture OCR de dossards, orientee explo
 
 - [Installation](installation.md)
 - [Utilisation](utilisation.md)
+- [Aide Copilot](aide-copilot.md)
+- [Questions Frequentes Copilot](faq-copilot.md)
+- [Exemples Copilot](exemples-copilot.md)
 - [Dossier Projet](dossier-projet.md)
 - [Captures d ecran](captures.md)
+
+## Debuter avec Copilot
+
+Si vous utilisez BibLegacy avec Copilot et VS Code, commencez par ces pages :
+
+- [Aide Copilot](aide-copilot.md) : pour savoir quelle commande ou quelle tache lancer
+- [Questions Frequentes Copilot](faq-copilot.md) : pour les cas simples et les hesitations courantes
+- [Exemples Copilot](exemples-copilot.md) : pour voir des phrases concretes a ecrire dans le chat
+
+Version la plus directe en une page dans le depot : `SI_TU_VEUX_X_LANCE_Y.md`
+
+Pour un demarrage tres simple :
+
+1. lancez `/BibLegacy Start Here` dans le chat Copilot
+2. si vous voulez juste verifier vite, lancez `Quick Validation Pack`
+3. si vous voulez voir cette documentation dans votre navigateur, lancez `Serve Public Docs Locally`
 
 ## Apercu de l application
 

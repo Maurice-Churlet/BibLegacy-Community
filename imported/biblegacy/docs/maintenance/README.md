@@ -29,6 +29,11 @@ Ce dossier contiendra la documentation technique destinee a un developpeur qui v
 - `tests-et-validation.md` : repertoire de tests utiles et strategie de validation ciblee
 - `points-sensibles.md` : liste courte des zones a haut risque de regression
 - `documentation-sync.md` : synchronisation automatique vers le depot BibLegacy-Community
+- `copilot-workflow.md` : usage pratique des prompts, skills et taches VS Code ajoutes au depot
+- `../../COPILOT_START_HERE.md` : point d'entree simple pour utiliser le pack Copilot du depot
+- `../../DAILY_MAINTENANCE.md` : tableau de bord quotidien ultra court
+- `../../COMMANDS_REFERENCE.md` : reference concise commande par commande et tache par tache
+- `../../SI_TU_VEUX_X_LANCE_Y.md` : tableau compact en une page pour choisir vite
 
 ## Ordre de lecture recommande
 1. `architecture.md`
@@ -40,6 +45,11 @@ Ce dossier contiendra la documentation technique destinee a un developpeur qui v
 7. `tests-et-validation.md`
 8. `points-sensibles.md`
 9. `documentation-sync.md`
+10. `copilot-workflow.md`
+11. `../../COPILOT_START_HERE.md`
+12. `../../DAILY_MAINTENANCE.md`
+13. `../../COMMANDS_REFERENCE.md`
+14. `../../SI_TU_VEUX_X_LANCE_Y.md`
 
 ## Regle
 Cette documentation doit etre redigee a partir du comportement verifie du code, pas a partir d'hypotheses ou d'anciennes notes.
