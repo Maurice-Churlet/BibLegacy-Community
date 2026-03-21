@@ -1,8 +1,8 @@
 # A propos
 
-Ce logiciel a ete developpe par Maurice Churlet, benevole de l'association des Balcons de la Drome.
+Ce logiciel a été développé par Maurice Churlet, bénévole de l'association des Balcons de la Drôme.
 
-BibLegacy a ete concu pour repondre a un besoin de terrain, avec une approche orientee exploitation, simplicite d'usage et fiabilite.
+BibLegacy a été conçu pour répondre à un besoin de terrain, avec une approche orientée exploitation, simplicité d'usage et fiabilité.
 
 - Email : [mchvalidation@gmail.com](mailto:mchvalidation@gmail.com)
 - Site : [https://lesbalconsdeladrome.fr/](https://lesbalconsdeladrome.fr/)
