@@ -25,6 +25,18 @@ Configuration initiale :
 
 Tu peux retirer ou ajouter des elements dans le manifeste selon ce que tu veux publier.
 
+## Flux d actualites de l application
+
+Le bloc `Dernieres Nouvelles` affiche dans l application ne doit plus etre maintenu a la main dans le depot communautaire.
+
+La source doit vivre dans `site_docs/news.txt` dans le depot `BibLegacy` :
+
+- ce fichier est synchronise automatiquement vers `BibLegacy_Doc/site_docs/news.txt`
+- MkDocs le publie comme fichier statique a la racine du site : `/news.txt`
+- l application charge ensuite directement `https://maurice-churlet.github.io/BibLegacy-Community/news.txt`
+
+Ce fichier n apparait pas dans la navigation du site, mais il est bien publie et accessible pour le client desktop.
+
 ## Commandes
 Depuis le depot source `BibLegacy` :
 
