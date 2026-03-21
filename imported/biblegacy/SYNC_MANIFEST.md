@@ -3,8 +3,8 @@
 This folder is generated from the BibLegacy source repository.
 
 - Source repository: D:\Dev\BibLegacy
-- Source commit: 536f86a
-- Synced at: 2026-03-21 21:50:00
+- Source commit: d854a4e
+- Synced at: 2026-03-21 22:33:59
 - Managed root: imported/biblegacy
 - Public site root files synced: yes
 
