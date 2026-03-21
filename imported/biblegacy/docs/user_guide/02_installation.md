@@ -17,6 +17,21 @@ La version Windows diffusee aux operateurs est disponible ici :
 
 Les reglages operateur sont conserves entre deux versions de l'application. Vous pouvez donc remplacer l'ancienne extraction par une nouvelle version de `BibLegacy.zip` sans perdre vos dossiers, votre prefixe ni vos calibrages utilisateur.
 
+### Mise a jour automatique
+
+Dans la version executable Windows, l'onglet `Parametres` propose un bouton de mise a jour dans le bloc `Infos`.
+
+Le principe est le suivant :
+
+1. BibLegacy verifie si une version plus recente existe.
+2. Si la version distante est identique, BibLegacy peut aussi proposer une reinstallation de la meme version pour reparer une installation locale.
+3. L'application telecharge ensuite la nouvelle archive, ou la meme version si vous avez choisi une reinstallation.
+4. BibLegacy ferme ensuite l'ancienne version.
+5. La version cible est installee automatiquement.
+6. BibLegacy est relance sans intervention supplementaire.
+
+Cette mise a jour automatique conserve les reglages operateur, car ceux-ci restent stockes dans le dossier utilisateur persistant.
+
 ## Installation depuis le depot source
 
 Cette partie concerne surtout la maintenance ou le developpement.

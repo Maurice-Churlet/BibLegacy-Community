@@ -9,6 +9,18 @@
 
 Les reglages operateur sont conserves entre deux versions. Une nouvelle extraction de `BibLegacy.zip` ne supprime donc pas vos dossiers, votre prefixe ni vos calibrages utilisateur.
 
+## Mise a jour automatique
+
+Dans la version executable Windows, l'onglet `Parametres` contient un bouton de mise a jour dans le bloc `Infos`.
+
+Ce bouton permet de :
+
+- verifier si une nouvelle version est disponible
+- reinstaller la meme version si vous voulez reparer une installation existante
+- telecharger la nouvelle archive
+- installer la mise a jour
+- relancer automatiquement BibLegacy
+
 ## Ce que fait automatiquement l application
 
 Quand vous selectionnez un **Dossier Projet**, BibLegacy :
