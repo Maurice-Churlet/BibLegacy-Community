@@ -89,7 +89,13 @@ python src/main.py --mode P --input C:\Photos\In --output C:\Photos\Out --prefix
 ```
 
 ## Système de Configuration
-Les fichiers sont stockés dans le dossier `config/` :
+Les réglages opérateur sont stockés dans un dossier utilisateur persistant :
+- Windows : `%APPDATA%\\BibLegacy\\config`
+- Linux : `$XDG_CONFIG_HOME/BibLegacy/config` ou `~/.config/BibLegacy/config`
+
+Au premier lancement d'une version récente, BibLegacy migre automatiquement les anciens réglages depuis le dossier local `config/` si besoin. Une mise à jour via un nouveau `BibLegacy.zip` conserve donc les dossiers, le préfixe et les calibrages utilisateur.
+
+Les fichiers suivants y sont conservés :
 - `engines/*.json` : Parametres de travail et historiques techniques conserves par le projet.
 - `test_configs.json` : Historique de vos calibrages.
 - `paths.json` : Chemins et préfixe persistants.

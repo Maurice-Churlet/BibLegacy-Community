@@ -7,6 +7,8 @@
 3. lancez `BibLegacy.exe`
 4. choisissez un **Dossier Projet** au premier demarrage
 
+Les reglages operateur sont conserves entre deux versions. Une nouvelle extraction de `BibLegacy.zip` ne supprime donc pas vos dossiers, votre prefixe ni vos calibrages utilisateur.
+
 ## Ce que fait automatiquement l application
 
 Quand vous selectionnez un **Dossier Projet**, BibLegacy :

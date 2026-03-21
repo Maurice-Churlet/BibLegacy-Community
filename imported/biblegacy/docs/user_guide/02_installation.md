@@ -15,6 +15,8 @@ La version Windows diffusee aux operateurs est disponible ici :
 5. L'application cree la structure projet et renseigne automatiquement le **Dossier Entree** et le **Dossier Sortie**.
 6. Il ne reste plus qu'a deposer vos propres fichiers dans les autres dossiers selon l'usage voulu.
 
+Les reglages operateur sont conserves entre deux versions de l'application. Vous pouvez donc remplacer l'ancienne extraction par une nouvelle version de `BibLegacy.zip` sans perdre vos dossiers, votre prefixe ni vos calibrages utilisateur.
+
 ## Installation depuis le depot source
 
 Cette partie concerne surtout la maintenance ou le developpement.
