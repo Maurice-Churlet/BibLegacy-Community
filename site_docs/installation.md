@@ -2,9 +2,9 @@
 
 ## Installation de l executable Windows
 
-1. telechargez [gui.zip](https://lesbalconsdeladrome.fr/BibLegacy/gui.zip)
+1. telechargez [BibLegacy.zip](https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip)
 2. decompressez l archive dans un dossier simple, par exemple `C:\BibLegacy`
-3. lancez `gui.exe`
+3. lancez `BibLegacy.exe`
 4. choisissez un **Dossier Projet** au premier demarrage
 
 ## Ce que fait automatiquement l application

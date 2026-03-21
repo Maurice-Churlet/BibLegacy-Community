@@ -36,9 +36,9 @@ Utilise la configuration optimisee pour le renommage massif des images du dossie
 
 La version operateur diffusee est disponible ici :
 
-- `https://lesbalconsdeladrome.fr/BibLegacy/gui.zip`
+- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip`
 
-Decompresser l'archive puis lancer `gui.exe`.
+Decompresser l'archive puis lancer `BibLegacy.exe`.
 
 ### Installation depuis les sources
 

@@ -4,13 +4,13 @@
 
 La version Windows diffusee aux operateurs est disponible ici :
 
-- `https://lesbalconsdeladrome.fr/BibLegacy/gui.zip`
+- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip`
 
 ### Procedure recommandee
 
-1. Telechargez `gui.zip`.
+1. Telechargez `BibLegacy.zip`.
 2. Decompressez l'archive dans un dossier simple, par exemple `C:\BibLegacy`.
-3. Ouvrez le dossier decompresse puis lancez `gui.exe`.
+3. Ouvrez le dossier decompresse puis lancez `BibLegacy.exe`.
 4. Au premier lancement, choisissez un **Dossier Projet** dedie a votre evenement ou a votre saison.
 5. L'application cree la structure projet et renseigne automatiquement le **Dossier Entree** et le **Dossier Sortie**.
 6. Il ne reste plus qu'a deposer vos propres fichiers dans les autres dossiers selon l'usage voulu.
