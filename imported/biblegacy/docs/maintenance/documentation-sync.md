@@ -23,6 +23,10 @@ Configuration initiale :
 - `docs/maintenance` vers `imported/biblegacy/docs/maintenance`
 - `README.md` du depot source vers `imported/biblegacy/README-source.md`
 
+Note de maintenance :
+- `docs/tutos` reste synchronise comme contenu interne / archival.
+- il n'alimente plus l'ancienne aide contextuelle de l'interface, retiree au profit du systeme global `Tool Tips`.
+
 Tu peux retirer ou ajouter des elements dans le manifeste selon ce que tu veux publier.
 
 ## Flux d actualites de l application
