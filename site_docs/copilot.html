@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Copilot | BibLegacy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f1e8;
+      --panel: #fffaf2;
+      --ink: #1d2a33;
+      --muted: #56636d;
+      --line: #d9cfbf;
+      --accent: #0f766e;
+      --accent-2: #155e75;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,0.10), transparent 30%),
+        linear-gradient(180deg, #f7f3eb 0%, var(--bg) 100%);
+      color: var(--ink);
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(21,94,117,0.08), rgba(15,118,110,0.12));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 36px;
+      box-shadow: 0 12px 30px rgba(29,42,51,0.08);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.76rem;
+      color: var(--accent-2);
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 0.95;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 18px 0 0;
+      font-size: 1.08rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: rgba(255,255,255,0.7);
+    }
+
+    .button.primary {
+      color: white;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      border-color: transparent;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 10px 24px rgba(29,42,51,0.06);
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+    }
+
+    .card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .card a {
+      color: var(--accent-2);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .note {
+      margin-top: 22px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      background: rgba(255,250,242,0.95);
+      border-radius: 10px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">BibLegacy x Copilot</p>
+      <h1>Point d'entrée Copilot</h1>
+      <p class="lead">
+        Cette page regroupe les ressources Copilot du site. Les pages détaillées restent accessibles,
+        mais elles ne sont plus affichées dans la navigation principale.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="aide-copilot/">Commencer</a>
+        <a class="button" href="index.html">Retour au site</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Aide Copilot</h2>
+        <p>Choisir rapidement la bonne commande Copilot ou la bonne tâche VS Code selon le besoin.</p>
+        <a href="aide-copilot/">Ouvrir la page</a>
+      </article>
+
+      <article class="card">
+        <h2>Questions fréquentes</h2>
+        <p>Réponses courtes pour les hésitations les plus courantes quand vous utilisez Copilot avec BibLegacy.</p>
+        <a href="faq-copilot/">Ouvrir la page</a>
+      </article>
+
+      <article class="card">
+        <h2>Exemples de phrases</h2>
+        <p>Exemples concrets de formulations à écrire dans le chat pour aller plus vite.</p>
+        <a href="exemples-copilot/">Ouvrir la page</a>
+      </article>
+    </section>
+
+    <div class="note">
+      Accès direct : <a href="aide-copilot/">Aide</a>, <a href="faq-copilot/">FAQ</a>, <a href="exemples-copilot/">Exemples</a>.
+    </div>
+  </main>
+</body>
+</html>
