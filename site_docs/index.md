@@ -27,6 +27,7 @@ BibLegacy est une application Windows de lecture OCR de dossards, orientee explo
 - [A propos](a-propos.md)
 - [Installation](installation.md)
 - [Utilisation](utilisation.md)
+- [Publier sur WordPress](wordpress-photos.md)
 - [Accueil Copilot](copilot.html)
 - [Dossier Projet](dossier-projet.md)
 - [Captures d ecran](captures.md)
