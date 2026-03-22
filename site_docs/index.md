@@ -4,7 +4,7 @@ BibLegacy est une application Windows de lecture OCR de dossards, orientee explo
 
 ## Telechargement
 
-- Executable Windows : [BibLegacy.zip](https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip)
+- Executable Windows : [BibLegacy-4.0.2.zip](https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy-4.0.2.zip)
 
 ## Ce que fait BibLegacy
 

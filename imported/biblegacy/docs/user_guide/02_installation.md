@@ -4,18 +4,18 @@
 
 La version Windows diffusee aux operateurs est disponible ici :
 
-- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip`
+- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy-<version>.zip`
 
 ### Procedure recommandee
 
-1. Telechargez `BibLegacy.zip`.
+1. Telechargez `BibLegacy-<version>.zip`.
 2. Decompressez l'archive dans un dossier simple, par exemple `C:\BibLegacy`.
 3. Ouvrez le dossier decompresse puis lancez `BibLegacy.exe`.
 4. Au premier lancement, choisissez un **Dossier Projet** dedie a votre evenement ou a votre saison.
 5. L'application cree la structure projet et renseigne automatiquement le **Dossier Entree** et le **Dossier Sortie**.
 6. Il ne reste plus qu'a deposer vos propres fichiers dans les autres dossiers selon l'usage voulu.
 
-Les reglages operateur sont conserves entre deux versions de l'application. Vous pouvez donc remplacer l'ancienne extraction par une nouvelle version de `BibLegacy.zip` sans perdre vos dossiers, votre prefixe ni vos calibrages utilisateur.
+Les reglages operateur sont conserves entre deux versions de l'application. Vous pouvez donc remplacer l'ancienne extraction par une nouvelle version de `BibLegacy-<version>.zip` sans perdre vos dossiers, votre prefixe ni vos calibrages utilisateur.
 
 ### Mise a jour automatique
 

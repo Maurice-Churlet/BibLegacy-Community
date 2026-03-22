@@ -2,12 +2,12 @@
 
 ## Installation de l executable Windows
 
-1. telechargez [BibLegacy.zip](https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip)
+1. telechargez le zip de version [BibLegacy-4.0.2.zip](https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy-4.0.2.zip)
 2. decompressez l archive dans un dossier simple, par exemple `C:\BibLegacy`
 3. lancez `BibLegacy.exe`
 4. choisissez un **Dossier Projet** au premier demarrage
 
-Les reglages operateur sont conserves entre deux versions. Une nouvelle extraction de `BibLegacy.zip` ne supprime donc pas vos dossiers, votre prefixe ni vos calibrages utilisateur.
+Les reglages operateur sont conserves entre deux versions. Une nouvelle extraction de `BibLegacy-<version>.zip` ne supprime donc pas vos dossiers, votre prefixe ni vos calibrages utilisateur.
 
 ## Mise a jour automatique
 

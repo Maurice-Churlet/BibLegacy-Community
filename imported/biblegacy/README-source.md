@@ -36,7 +36,7 @@ Utilise la configuration optimisee pour le renommage massif des images du dossie
 
 La version operateur diffusee est disponible ici :
 
-- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy.zip`
+- `https://lesbalconsdeladrome.fr/BibLegacy/BibLegacy-<version>.zip`
 
 Decompresser l'archive puis lancer `BibLegacy.exe`.
 
@@ -93,7 +93,7 @@ Les réglages opérateur sont stockés dans un dossier utilisateur persistant :
 - Windows : `%APPDATA%\\BibLegacy\\config`
 - Linux : `$XDG_CONFIG_HOME/BibLegacy/config` ou `~/.config/BibLegacy/config`
 
-Au premier lancement d'une version récente, BibLegacy migre automatiquement les anciens réglages depuis le dossier local `config/` si besoin. Une mise à jour via un nouveau `BibLegacy.zip` conserve donc les dossiers, le préfixe et les calibrages utilisateur.
+Au premier lancement d'une version récente, BibLegacy migre automatiquement les anciens réglages depuis le dossier local `config/` si besoin. Une mise à jour via un nouveau `BibLegacy-<version>.zip` conserve donc les dossiers, le préfixe et les calibrages utilisateur.
 
 Les fichiers suivants y sont conservés :
 - `engines/*.json` : Parametres de travail et historiques techniques conserves par le projet.
